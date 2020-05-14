@@ -32,6 +32,8 @@
   border-radius: 50%;
 }
 
+
+
 /* <i class="fa fa-search"></i> */
 
 .fa-search {
@@ -103,7 +105,7 @@ p {
 .column-3 {
   float: left;
   width: calc(100% / 3);
-}
+} 
 
 .column-4 {
   width: calc(100% / 4);
@@ -125,7 +127,8 @@ p {
 
 .small-img {
   width: 150px;
-  padding-bottom: 5%;
+  height: 100px;
+  margin-bottom: 10%;
  }
 
 /*///////////////////////
@@ -270,7 +273,9 @@ MAIN SECTION 1 CONTAINER 2
 ///////////////////////*/
 
 .s1-container-3 .column-3 {
-  
+  margin-top: 5%;
+  text-align: center;
+  padding: 5%;
 }
 
 
