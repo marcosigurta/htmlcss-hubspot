@@ -13,10 +13,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
     <title>Document</title>
   </head>
   <body>
@@ -24,18 +21,23 @@
     <header>
       <!-- NAVBAR1 -->
       <nav class="nav fixed">
-        <div class="center clearfix">
-          <div class="column-2">
+        <div class="center navbar-1 clearfix">
+          <div class="column-2 contact">
             <ul>
               <li>
                 <span>
                   <i class="fa fa-globe-europe"></i>
-                  English
-                  <i class="fas fa-chevron-down"></i>
+                <a href="">
+                  English 
+                    <i class="fas fa-chevron-down"></i>
+                  </a>
                 </span>
               </li>
               <li>
-                Contact us
+                <span> | </span>
+              </li>
+              <li>
+               <a href=""> Contact us</a>
               </li>
             </ul>
           </div>
@@ -43,10 +45,20 @@
             <ul>
               <li><i class="fa fa-search"></i></li>
               <li>
-                <span class="btn-small">Log In</span>
+                <span>
+                  <a href="">
+                    <button class="btn-small">
+                      Log In
+                    </button>
+                  </a>
+                </span>
               </li>
               <li>
-                <span class="btn-large">GetHupSpotFree</span>
+                <span>
+                  <a href="">
+                  <button class="btn-large">GetHupSpotFree</button>
+                </a>
+              </span>
               </li>
             </ul>
           </div>
@@ -56,27 +68,61 @@
       <!-- NAVBAR2 -->
 
       <nav class="nav navbar">
-        <div class="center">
-          ciao
+        <div class="center navbar-2 clearfix">
+          <div class="column-2 logo">
+            <img src="../htmlcss-hubspot/img/img-hubspot/img/logo.svg" alt="">
+          </div>
+          <div class="column-2 navmenu">
+            <ul>
+              <li>
+                <a href="">
+                 Software
+                  <i class="fas fa-chevron-down"></i>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  Pricing
+                 </a>
+              </li>
+              <li>
+                 <a href="">
+                  Resources
+                   <i class="fas fa-chevron-down"></i>
+                 </a>
+              </li>
+              <li>
+                 <a href="">
+                  Partners
+                   <i class="fas fa-chevron-down"></i>
+                 </a>
+              </li>
+              <li>
+                 <a href="">
+                  About
+                   <i class="fas fa-chevron-down"></i>
+                 </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
 
       <!-- MAIN CONTENT HEADER -->
 
-      <div class="center">
+      <div class="h-main-content center">
         <h1>
           There's a better way to <br />
           grow
         </h1>
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit autem
-          excepturi, vitae, maxime maiores similique porro nulla cupiditate,
-          rerum asperiores facilis? Soluta cumque odio velit doloremque fugit
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit  <br>
+          excepturi, vitae, maxime maiores similique porro nulla <br>
           saepe. Asperiores, delectus?
         </p>
-        <span class="btn-large">
-          GetHupSpotFree
-        </span>
+        <a>
+          <button class="btn-large">GetHupSpotFree</button>
+        </a>
       </div>
     </header>
 
@@ -84,26 +130,64 @@
 
     <main>
       <!-- SECTION1 -->
+      <!-- CONTAINER-1 -->
       <section class="center">
         <div class="s1-container">
-          <img src="../htmlcss-hubspot/img/img-hubspot/img/cube.png" alt="" />
-          <h2>Lorem ipsum dolor sit amet.</h2>
+          <img src="../htmlcss-hubspot/img/img-hubspot/img/cube.png" alt="Image" />
+          <h2>Powerful Alone. Better Together</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
-            adipisci laboriosam dignissimos enim voluptatum facilis optio
-            temporibus qui, dolore vel maxime quisquam odio blanditiis mollitia
-            fugiat? Quia quos obcaecati commodi!
+            adipisci
+            <br>
+            laboriosam dignissimos enim voluptatum facilis Lorem ipsum.!
           </p>
         </div>
+      <!-- CONTAINER2 -->
+        <div class="s1-container-2 clearfix w-container">
+          <div class="column-2 library">
+            <div>
+              <img class="small-img" src="../htmlcss-hubspot/img/img-hubspot/img/CRM-Illustration.svg" alt="">
+            </div>
+            <a href="">
+              <button class="btn-large">
+                Learn More
+              </button>
+            </a>
+          </div>
 
-        <div class="s1-container2 clearfix">
+          <div class="column-2 text">
+            <h2>Free HubSpot CRM</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, sit fugiat perspiciatis ut voluptatibus impedit numquam eligendi tempora, rem mollitia officia? 
+            </p>
+            <div class="sub-container clearfix">
+              <div class="column-2 p-feature">
+                <h4>Popular Feature</h4>
+              </div>
+              <div class="column-2 line">
+              </div>
+            </div>
+            <span>
+              <i class="fa fa-check-circle"></i> 
+              Contract Insight
+            </span>
+            <span>
+              <i class="fa fa-check-circle"></i> 
+              Deals
+            </span>
+            <span>
+              <i class="fa fa-check-circle"></i> 
+              Task
+            </span>
+          </div>
+        </div>
+        <div class="s1-container-3 clearfix center">
           <div class="column-3">
             <div>
               <img
                 src="../htmlcss-hubspot/img/img-hubspot/img/Marketing-Hub-Free.svg"
                 alt=""
               />
-              <h2>TITOLO</h2>
+              <h2>Powerful Alone. Better Together</h2>
               <p>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 Adipisci consequuntur non aliquam officia totam alias officiis

@@ -6,7 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-family: 'Varela Round', sans-serif;
   color: #33475b;
 }
 
@@ -46,24 +46,23 @@
 ///////////////////////*/
 
 .btn-large {
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
   background-color: #ff7a59;
   text-decoration: none;
   color: #fff;
-  height: 50px;
-  line-height: 50px;
   text-align: center;
   border-radius: 4px;
-  padding: 2%;
+  border: none;
 }
 
 .btn-small {
-  display: block;
+  height: 35px;
+  width: 60px;
   background-color: #fff;
   text-decoration: none;
   color: #ff7a59;
-  width: 50px;
-  height: 40px;
-  line-height: 35px;
   text-align: center;
   border-radius: 4px;
   border: 1px solid #ff7a59;
@@ -78,6 +77,18 @@ a {
   display: inline-block;
   list-style: none;
   text-decoration: none;
+}
+
+/*///////////////////////
+        H2 | P
+///////////////////////*/
+
+h2, p {
+  padding-bottom: 2%;
+}
+
+p {
+  line-height: 200%;
 }
 
 /*///////////////////////
@@ -99,10 +110,30 @@ a {
 }
 
 /*///////////////////////
+  CONTAINER WHITE BG
+///////////////////////*/
+
+.w-container {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px #d0d3d5;
+}
+
+/*///////////////////////
+       IMAGES
+///////////////////////*/
+
+.small-img {
+  width: 150px;
+  padding-bottom: 5%;
+ }
+
+/*///////////////////////
       HEADER
 ///////////////////////*/
+
 header {
-  background: url(../img/img-hubspot/img/jumbotron.png) no-repeat center
+  background: url(../img/img-hubspot/img/jumbotron.png) no-repeat right
     center/cover;
   background-size: 100%;
   height: 600px;
@@ -110,8 +141,20 @@ header {
 }
 
 /*///////////////////////
-      NAVBAR
+      NAVBAR 1
 ///////////////////////*/
+
+.nav {
+  line-height: 50px;
+}
+
+.nav .navbar-1 .column-2 ul li {
+  margin-left: 10px;
+}
+
+.nav .navbar-1 .column-2 ul li:first-child {
+  margin-left: 0px;
+}
 
 .fixed {
   width: 100%;
@@ -120,7 +163,17 @@ header {
   top: 0;
   z-index: 1;
   background-color: #f5f8fa;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid 	#d0d3d5;
+}
+
+.fixed .search {
+  text-align: right;
+  float: right;
+}
+
+.fixed .search .btn-large {
+  height: 35px;
+  width: 150px;
 }
 
 .navbar {
@@ -130,23 +183,94 @@ header {
   margin-top: 50px;
 }
 
-.search {
-  text-align: right;
+/*///////////////////////
+      NAVBAR 2
+///////////////////////*/
+
+.nav .center .logo {
+  padding-top: 1%;
+}
+.nav .center .navmenu {
   float: right;
+  text-align: right;
 }
 
-/* DEBUG */
+.navmenu ul li {
+  margin-left: 10px;
+}
 
+/*///////////////////////
+     HEADER CONTENT
+///////////////////////*/ 
+
+.h-main-content {
+  padding: 3% 0;
+}
+
+.h-main-content h1 {
+  font-size: 50px;
+  margin-bottom: 2%;
+}
+
+/*///////////////////////
+        M A I N
+///////////////////////*/ 
+
+/* SECTION 1 CONTAINER */
 main {
-  width: 100%;
-  background-color: red;
+  background-color: #F5F8FA;
 }
 
 .s1-container {
   text-align: center;
+  padding-top: 2%;
 }
 
-.secondo {
-  background-color: #fff;
-  height: 100px;
+.s1-container img {
+  width: 200px;
+  height: 150px;
 }
+
+/* SECTION 1 CONTAINER 2 */
+
+.s1-container-2 .library {
+  text-align: center;
+  padding: 5%;
+  width: 30%;
+}
+
+.s1-container-2 .text {
+  padding: 5%;
+  width: 70%;
+}
+
+.s1-container-2 .text i,
+.s1-container-2 .text span {
+  margin-right: 2%;
+}
+
+.column-2 .sub-container {
+  padding-bottom: 5%;
+}
+
+.column-2 .p-feature {
+  width: 20%;
+}
+
+.column-2 .line { 
+ border: 1px solid #d0d3d5;
+ width: 60%;
+ margin-top: 10px;
+ margin-left: 10%;
+}
+
+
+/*///////////////////////
+MAIN SECTION 1 CONTAINER 2
+///////////////////////*/
+
+.s1-container-3 .column-3 {
+  
+}
+
+
