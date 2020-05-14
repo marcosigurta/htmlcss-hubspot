@@ -1,0 +1,152 @@
+/*///////////////////////
+         GENERAL
+///////////////////////*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  color: #33475b;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.center {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/*///////////////////////
+         ICONS
+///////////////////////*/
+
+/* <i class="fa fa-check-circle"></i>  */
+
+.fa-check-circle {
+  color: #ff7a59;
+  border-radius: 50%;
+}
+
+/* <i class="fa fa-search"></i> */
+
+.fa-search {
+  color: #02a5bd;
+}
+
+/* <i class="fa fa-globe-europe"></i> */
+/* <i class="fas fa-chevron-down"></i> */
+
+/*///////////////////////
+         BUTTONS
+///////////////////////*/
+
+.btn-large {
+  background-color: #ff7a59;
+  text-decoration: none;
+  color: #fff;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  padding: 2%;
+}
+
+.btn-small {
+  display: block;
+  background-color: #fff;
+  text-decoration: none;
+  color: #ff7a59;
+  width: 50px;
+  height: 40px;
+  line-height: 35px;
+  text-align: center;
+  border-radius: 4px;
+  border: 1px solid #ff7a59;
+}
+
+/*///////////////////////
+ LIST ITEM & ANCHOR TAG
+///////////////////////*/
+
+li,
+a {
+  display: inline-block;
+  list-style: none;
+  text-decoration: none;
+}
+
+/*///////////////////////
+      COLUMN ROW
+///////////////////////*/
+
+.column-2 {
+  float: left;
+  width: 50%;
+}
+
+.column-3 {
+  float: left;
+  width: calc(100% / 3);
+}
+
+.column-4 {
+  width: calc(100% / 4);
+}
+
+/*///////////////////////
+      HEADER
+///////////////////////*/
+header {
+  background: url(../img/img-hubspot/img/jumbotron.png) no-repeat center
+    center/cover;
+  background-size: 100%;
+  height: 600px;
+  border-bottom: 1px solid #33475b;
+}
+
+/*///////////////////////
+      NAVBAR
+///////////////////////*/
+
+.fixed {
+  width: 100%;
+  position: fixed;
+  height: 50px;
+  top: 0;
+  z-index: 1;
+  background-color: #f5f8fa;
+  border-bottom: 1px solid black;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #fff;
+  height: 50px;
+  margin-top: 50px;
+}
+
+.search {
+  text-align: right;
+  float: right;
+}
+
+/* DEBUG */
+
+main {
+  width: 100%;
+  background-color: red;
+}
+
+.s1-container {
+  text-align: center;
+}
+
+.secondo {
+  background-color: #fff;
+  height: 100px;
+}
