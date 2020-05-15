@@ -1,7 +1,6 @@
 /*///////////////////////
          GENERAL
 ///////////////////////*/
-
 * {
   margin: 0;
   padding: 0;
@@ -24,29 +23,22 @@
 /*///////////////////////
          ICONS
 ///////////////////////*/
-
 /* <i class="fa fa-check-circle"></i>  */
-
 .fa-check-circle {
   color: #ff7a59;
   border-radius: 50%;
 }
 
-
-
 /* <i class="fa fa-search"></i> */
-
 .fa-search {
   color: #02a5bd;
 }
 
 /* <i class="fa fa-globe-europe"></i> */
 /* <i class="fas fa-chevron-down"></i> */
-
 /*///////////////////////
          BUTTONS
 ///////////////////////*/
-
 .btn-large {
   width: 150px;
   height: 50px;
@@ -60,6 +52,7 @@
 }
 
 .btn-small {
+  cursor: pointer;
   height: 35px;
   width: 60px;
   background-color: #fff;
@@ -73,10 +66,8 @@
 /*///////////////////////
  LIST ITEM & ANCHOR TAG
 ///////////////////////*/
-
 li,
 a {
- 
   list-style: none;
   text-decoration: none;
 }
@@ -84,7 +75,6 @@ a {
 /*///////////////////////
         H2 | P
 ///////////////////////*/
-
 h2, p {
   padding-bottom: 2%;
 }
@@ -96,7 +86,6 @@ p {
 /*///////////////////////
       COLUMN ROW
 ///////////////////////*/
-
 .column-2 {
   float: left;
   width: 50%;
@@ -105,7 +94,7 @@ p {
 .column-3 {
   float: left;
   width: calc(100% / 3);
-} 
+}
 
 .column-4 {
   width: calc(100% / 4);
@@ -115,7 +104,6 @@ p {
 /*///////////////////////
   CONTAINER WHITE BG
 ///////////////////////*/
-
 .w-container {
   background-color: #fff;
   border-radius: 5px;
@@ -125,20 +113,17 @@ p {
 /*///////////////////////
        IMAGES
 ///////////////////////*/
-
 .small-img {
   width: 150px;
   height: 100px;
   margin-bottom: 10%;
- }
+}
 
 /*///////////////////////
       HEADER
 ///////////////////////*/
-
 header {
-  background: url(../img/jumbotron.png) no-repeat right
-    center/cover;
+  background: url(../img/jumbotron.png) no-repeat right center/cover;
   background-size: 100%;
   height: 600px;
   border-bottom: 1px solid #33475b;
@@ -147,7 +132,6 @@ header {
 /*///////////////////////
       NAVBAR 1
 ///////////////////////*/
-
 .nav {
   line-height: 50px;
 }
@@ -162,7 +146,6 @@ header {
   border-right: 1px solid #d0d3d5;
 }
 
-
 .nav .navbar-1 .column-2 ul li:first-child {
   margin-left: 0px;
 }
@@ -174,7 +157,7 @@ header {
   top: 0;
   z-index: 1;
   background-color: #f5f8fa;
-  border-bottom: 1px solid 	#d0d3d5;
+  border-bottom: 1px solid #d0d3d5;
 }
 
 .fixed .search {
@@ -197,10 +180,10 @@ header {
 /*///////////////////////
       NAVBAR 2
 ///////////////////////*/
-
 .nav .center .logo {
   padding-top: 1%;
 }
+
 .nav .center .navmenu {
   float: right;
   text-align: right;
@@ -213,8 +196,7 @@ header {
 
 /*///////////////////////
      HEADER CONTENT
-///////////////////////*/ 
-
+///////////////////////*/
 .h-main-content {
   padding: 3% 0;
 }
@@ -226,8 +208,7 @@ header {
 
 /*///////////////////////
         M A I N
-///////////////////////*/ 
-
+///////////////////////*/
 /* SECTION 1 CONTAINER */
 main {
   background-color: #F5F8FA;
@@ -244,7 +225,6 @@ main {
 }
 
 /* SECTION 1 CONTAINER 2 */
-
 .s1-container-2 .library {
   text-align: center;
   padding: 5%;
@@ -269,18 +249,16 @@ main {
   width: 20%;
 }
 
-.column-2 .line { 
- border: 1px solid #d0d3d5;
- width: 60%;
- margin-top: 10px;
- margin-left: 10%;
+.column-2 .line {
+  border: 1px solid #d0d3d5;
+  width: 60%;
+  margin-top: 10px;
+  margin-left: 10%;
 }
-
 
 /*///////////////////////
 MAIN SECTION 1 CONTAINER 2
 ///////////////////////*/
-
 .s1-container-3 .column-3 {
   margin-top: 5%;
   text-align: center;
@@ -298,7 +276,7 @@ MAIN SECTION 1 CONTAINER 2
 }
 
 .s1-container-3 .column-3 .columns-3-img {
-  border-bottom: 1px solid 	#d0d3d5;
+  border-bottom: 1px solid #d0d3d5;
   padding-bottom: 10%;
 }
 
@@ -309,53 +287,53 @@ MAIN SECTION 1 CONTAINER 2
 .s1-container-3 .column-3 .columns-3-text h4 {
   margin-bottom: 5%;
 }
+
 .s1-container-3 .column-3 .columns-3-text ul {
   text-align: left;
   margin-bottom: 10%;
 }
 
-
-
-/* section 2 debug */
-
+/*///////////////////////
+     MAIN SECTION 2
+///////////////////////*/
 .section-2 {
-  background-color: #00B9A9;
+  background: linear-gradient(45deg, #00a4bd, #00bda5);
   text-align: center;
-}
-
-.section-2 .section-2-raw {
-  border-bottom: 0.5px solid white;
-}
-
-.section-2 .section-2-raw:last-of-type {
-  border-bottom: none;
-}
-
-.section-2 .section-2-raw .raw {
-  border-right: 0.5px solid white;
-}
-
-.section-2 .section-2-raw .raw:last-of-type {
-  border-right: none;
-}
-
-.section-2 .uppercase {
-  font-size: 30px;
-  color: white;
-  margin: 1% 0;
-  font-weight: bold;
-  
-  
-}
-.section-2  span {
-  color:white;
-  
-}
-
-.raw img {
-  margin-top: 5%;
+  padding-bottom: 5%;
 }
 
 .column-4 {
   padding: 2%;
+}
+
+.section-2 * {
+  color: white;
+}
+
+.section-2 .section-2-text {
+  padding-top: 5%;
+}
+
+/*///////////////////////
+    MAIN SECTION 2 ROW
+///////////////////////*/
+.section-2 .section-2-row h2 {
+  padding-top: 10%;
+  font-size: 35px;
+}
+
+.section-2 .section-2-row {
+  border-bottom: 0.5px solid white;
+}
+
+.section-2-row:last-of-type {
+  border-bottom: none;
+}
+
+.section-2 .section-2-row .row {
+  border-right: 0.5px solid white;
+}
+
+.section-2 .section-2-row .row:last-of-type {
+  border-right: none;
 }
