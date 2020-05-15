@@ -76,7 +76,7 @@
 
 li,
 a {
-  display: inline-block;
+ 
   list-style: none;
   text-decoration: none;
 }
@@ -153,6 +153,7 @@ header {
 
 .nav .navbar-1 .column-2 ul li {
   margin-left: 10px;
+  display: inline-block;
 }
 
 .nav .navbar-1 .column-2 ul li:first-child {
@@ -199,6 +200,7 @@ header {
 }
 
 .navmenu ul li {
+  display: inline-block;
   margin-left: 10px;
 }
 
@@ -275,7 +277,33 @@ MAIN SECTION 1 CONTAINER 2
 .s1-container-3 .column-3 {
   margin-top: 5%;
   text-align: center;
-  padding: 5%;
+  padding: 3%;
+  float: left;
+  width: calc(100% / 3 - 40px);
 }
 
+.s1-container-3 .column-3:nth-of-type(2) {
+  float: right;
+}
+
+.s1-container-3 .column-3:nth-of-type(3) {
+  margin-left: 6%;
+}
+
+.s1-container-3 .column-3 .columns-3-img {
+  border-bottom: 1px solid 	#d0d3d5;
+  padding-bottom: 10%;
+}
+
+.s1-container-3 .column-3 .columns-3-text {
+  padding-top: 10%;
+}
+
+.s1-container-3 .column-3 .columns-3-text h4 {
+  margin-bottom: 5%;
+}
+.s1-container-3 .column-3 .columns-3-text ul {
+  text-align: left;
+  margin-bottom: 10%;
+}
 
