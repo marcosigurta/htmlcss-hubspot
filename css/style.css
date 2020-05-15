@@ -109,6 +109,7 @@ p {
 
 .column-4 {
   width: calc(100% / 4);
+  float: left;
 }
 
 /*///////////////////////
@@ -136,7 +137,7 @@ p {
 ///////////////////////*/
 
 header {
-  background: url(../img/img-hubspot/img/jumbotron.png) no-repeat right
+  background: url(../img/jumbotron.png) no-repeat right
     center/cover;
   background-size: 100%;
   height: 600px;
@@ -155,6 +156,12 @@ header {
   margin-left: 10px;
   display: inline-block;
 }
+
+.nav .navbar-1 .contact ul li span a {
+  padding-right: 16px;
+  border-right: 1px solid #d0d3d5;
+}
+
 
 .nav .navbar-1 .column-2 ul li:first-child {
   margin-left: 0px;
@@ -307,3 +314,48 @@ MAIN SECTION 1 CONTAINER 2
   margin-bottom: 10%;
 }
 
+
+
+/* section 2 debug */
+
+.section-2 {
+  background-color: #00B9A9;
+  text-align: center;
+}
+
+.section-2 .section-2-raw {
+  border-bottom: 0.5px solid white;
+}
+
+.section-2 .section-2-raw:last-of-type {
+  border-bottom: none;
+}
+
+.section-2 .section-2-raw .raw {
+  border-right: 0.5px solid white;
+}
+
+.section-2 .section-2-raw .raw:last-of-type {
+  border-right: none;
+}
+
+.section-2 .uppercase {
+  font-size: 30px;
+  color: white;
+  margin: 1% 0;
+  font-weight: bold;
+  
+  
+}
+.section-2  span {
+  color:white;
+  
+}
+
+.raw img {
+  margin-top: 5%;
+}
+
+.column-4 {
+  padding: 2%;
+}
