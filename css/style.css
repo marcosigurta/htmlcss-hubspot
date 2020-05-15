@@ -5,7 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Varela Round', sans-serif;
+  font-family: "Varela Round", sans-serif;
   color: #33475b;
 }
 
@@ -75,7 +75,8 @@ a {
 /*///////////////////////
         H2 | P
 ///////////////////////*/
-h2, p {
+h2,
+p {
   padding-bottom: 2%;
 }
 
@@ -211,7 +212,7 @@ header {
 ///////////////////////*/
 /* SECTION 1 CONTAINER */
 main {
-  background-color: #F5F8FA;
+  background-color: #f5f8fa;
 }
 
 .s1-container {
@@ -302,7 +303,7 @@ MAIN SECTION 1 CONTAINER 2
   padding-bottom: 5%;
 }
 
-.column-4 {
+.section-2-row .column-4 {
   padding: 2%;
 }
 
@@ -336,4 +337,101 @@ MAIN SECTION 1 CONTAINER 2
 
 .section-2 .section-2-row .row:last-of-type {
   border-right: none;
+}
+
+/*///////////////////////
+    MAIN SECTION 3 ROW
+///////////////////////*/
+.section-3 .section-3-title,
+.section-3 .section-3-sponsor {
+  padding: 5%;
+}
+
+.section-3 .section-3-title h2 {
+  font-size: 35px;
+  margin-bottom: 10%;
+}
+
+.section-3-title {
+  width: 40%;
+}
+
+.section-3 .section-3-sponsor {
+  float: right;
+  text-align: right;
+  vertical-align: middle;
+  width: 60%;
+}
+
+.sponsor-img img {
+  width: 80%;
+  margin-left: 20px;
+}
+
+/*///////////////////////
+MAIN SECTION 3 MAIN TEXT
+///////////////////////*/
+
+.section-3 .section-3-text .column-2 h2 {
+  font-size: 35px;
+}
+
+.section-3 .section-3-text .column-2 p {
+  margin: 6% 0;
+}
+
+.section-3 .section-3-text .column-2 p:last-child {
+  font-size: 10px;
+}
+
+.section-3 .section-3-text .column-2 img {
+  width: 50%;
+}
+
+.section-3 .section-3-text .column-2:last-child {
+  float: right;
+  text-align: right;
+}
+
+/*///////////////////////
+        FOOTER
+///////////////////////*/
+
+footer {
+  background-color: #33475b;
+}
+
+footer * {
+  color: white;
+}
+
+footer .column-4 {
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+footer .column-4 ul li {
+  margin-top: 3%;
+}
+
+/* part2 */
+
+footer .footer-end .footer-end-1 {
+  text-align: center;
+}
+footer .footer-end .footer-end-1 ul li {
+  display: inline-block;
+  padding: 2% 1%;
+}
+footer .footer-end .footer-end-2 {
+  margin-top: 3%;
+}
+
+footer .footer-end .footer-end-2 .column-2:last-of-type {
+  float: right;
+  text-align: right;
+  padding-top: 1%;
+}
+footer .footer-end .footer-end-2 .column-2 span {
+  margin-left: 3%;
 }
