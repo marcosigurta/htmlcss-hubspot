@@ -34,32 +34,34 @@
   color: #02a5bd;
 }
 
-/* <i class="fa fa-globe-europe"></i> */
-/* <i class="fas fa-chevron-down"></i> */
+/* <i class="fa fa-globe-europe"></i>
+<i class="fas fa-chevron-down"></i>
+<span class="fab fa-facebook-f"></span>
+<span class="fab fa-instagram"></span>
+<span class="fab fa-youtube"></span>
+<span class="fab fa-twitter"></span>
+<span class="fab fa-linkedin-in"></span>*/
 /*///////////////////////
          BUTTONS
 ///////////////////////*/
 .btn-large {
-  width: 150px;
-  height: 50px;
   cursor: pointer;
   background-color: #ff7a59;
   text-decoration: none;
   color: #fff;
   text-align: center;
   border-radius: 4px;
-  border: none;
+  padding: 15px 20px;
 }
 
 .btn-small {
   cursor: pointer;
-  height: 35px;
-  width: 60px;
   background-color: #fff;
   text-decoration: none;
   color: #ff7a59;
   text-align: center;
   border-radius: 4px;
+  padding: 8px 10px;
   border: 1px solid #ff7a59;
 }
 
@@ -167,8 +169,8 @@ header {
 }
 
 .fixed .search .btn-large {
-  height: 35px;
-  width: 150px;
+  padding: 8px 10px;
+  border: 1px solid#ff7a59;
 }
 
 .navbar {
@@ -205,6 +207,15 @@ header {
 .h-main-content h1 {
   font-size: 50px;
   margin-bottom: 2%;
+}
+
+.h-main-content p:first-of-type {
+  margin-bottom: 3%;
+}
+
+.h-main-content p:last-of-type {
+  margin-top: 5%;
+  font-size: 15px;
 }
 
 /*///////////////////////
@@ -265,15 +276,11 @@ MAIN SECTION 1 CONTAINER 2
   text-align: center;
   padding: 3%;
   float: left;
-  width: calc(100% / 3 - 40px);
+  width: 30%;
 }
 
 .s1-container-3 .column-3:nth-of-type(2) {
-  float: right;
-}
-
-.s1-container-3 .column-3:nth-of-type(3) {
-  margin-left: 6%;
+  margin: 5% 5%;
 }
 
 .s1-container-3 .column-3 .columns-3-img {
@@ -348,7 +355,7 @@ MAIN SECTION 1 CONTAINER 2
 }
 
 .section-3 .section-3-title h2 {
-  font-size: 35px;
+  font-size: 50px;
   margin-bottom: 10%;
 }
 
@@ -371,7 +378,6 @@ MAIN SECTION 1 CONTAINER 2
 /*///////////////////////
 MAIN SECTION 3 MAIN TEXT
 ///////////////////////*/
-
 .section-3 .section-3-text .column-2 h2 {
   font-size: 35px;
 }
@@ -396,7 +402,6 @@ MAIN SECTION 3 MAIN TEXT
 /*///////////////////////
         FOOTER
 ///////////////////////*/
-
 footer {
   background-color: #33475b;
 }
@@ -409,6 +414,7 @@ footer h4,
 footer .footer-end-2 .column-2 p {
   color: white;
 }
+
 footer .column-4 {
   margin-top: 3%;
   margin-bottom: 3%;
@@ -434,14 +440,28 @@ footer .column-4 span {
 /*///////////////////////
   FOOTER END-CREDITS
 ///////////////////////*/
+footer .btn-large {
+  padding: 10px 10px;
+  font-size: 12px;
+}
 
 footer .footer-end .footer-end-1 {
   text-align: center;
 }
+
+footer .column-4 ul {
+  margin-bottom: 10%;
+}
+
+footer #icons {
+  margin-top: 5%;
+}
+
 footer .footer-end .footer-end-1 ul li {
   display: inline-block;
   padding: 2% 1%;
 }
+
 footer .footer-end .footer-end-2 {
   margin-top: 3%;
 }
@@ -451,6 +471,8 @@ footer .footer-end .footer-end-2 .column-2:last-of-type {
   text-align: right;
   padding-top: 1%;
 }
+
 footer .footer-end .footer-end-2 .column-2 span {
+  margin-top: 10%;
   margin-left: 3%;
 }
