@@ -360,22 +360,22 @@ MAIN SECTION 1 CONTAINER 2
   font-size: 50px;
   margin-bottom: 10%;
 }
+
 .section-3 .section-3-title {
   width: 30%;
 }
+
 .section-3 .section-3-sponsor {
   width: 70%;
 }
 
 .section-3 .section-3-sponsor #sponsor-1 {
-  background: url(../img/Atlassian-horizontal-blue@2x.webp) no-repeat center
-    center/80%;
+  background: url(../img/Atlassian-horizontal-blue@2x.webp) no-repeat center center/80%;
   height: 80px;
 }
 
 .section-3 .section-3-sponsor #sponsor-2 {
-  background: url(../img/doordash_owler_20181011_194113_original@2x.webp)
-    no-repeat center center/80%;
+  background: url(../img/doordash_owler_20181011_194113_original@2x.webp) no-repeat center center/80%;
   height: 80px;
 }
 
@@ -390,14 +390,12 @@ MAIN SECTION 1 CONTAINER 2
 }
 
 .section-3 .section-3-sponsor #sponsor-5 {
-  background: url(../img/Subaru_Logo_v2_186x63@2x.webp) no-repeat center
-    center/80%;
+  background: url(../img/Subaru_Logo_v2_186x63@2x.webp) no-repeat center center/80%;
   height: 80px;
 }
 
 .section-3 .section-3-sponsor #sponsor-6 {
   background: url(../img/Wistia_logo@2x.webp) no-repeat center center/80%;
-
   height: 80px;
 }
 
@@ -407,8 +405,7 @@ MAIN SECTION 1 CONTAINER 2
 }
 
 .section-3 .section-3-sponsor #sponsor-8 {
-  background: url(../img/VMware_logo_gry_RGB_300dpi@2x.webp) no-repeat center
-    center/80%;
+  background: url(../img/VMware_logo_gry_RGB_300dpi@2x.webp) no-repeat center center/80%;
   height: 80px;
 }
 
