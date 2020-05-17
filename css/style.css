@@ -7,6 +7,7 @@
   box-sizing: border-box;
   font-family: "Varela Round", sans-serif;
   color: #33475b;
+  border: 1px solid black;
 }
 
 .clearfix::after {
@@ -351,28 +352,60 @@ MAIN SECTION 1 CONTAINER 2
 ///////////////////////*/
 .section-3 .section-3-title,
 .section-3 .section-3-sponsor {
-  padding: 5%;
+padding: 3%;
 }
 
 .section-3 .section-3-title h2 {
   font-size: 50px;
   margin-bottom: 10%;
 }
-
-.section-3-title {
-  width: 40%;
+.section-3 .section-3-title {
+width: 30%;
 }
-
 .section-3 .section-3-sponsor {
-  float: right;
-  text-align: right;
-  vertical-align: middle;
-  width: 60%;
+  width: 70%;
 }
 
-.sponsor-img img {
-  width: 80%;
-  margin-left: 20px;
+
+.section-3 .section-3-sponsor #sponsor-1 {
+  background:url(../img/Atlassian-horizontal-blue@2x.webp)  no-repeat center center/80%;
+   height: 80px;
+}
+
+.section-3 .section-3-sponsor #sponsor-2 {
+  background:url(../img/doordash_owler_20181011_194113_original@2x.webp) no-repeat center center/80%;
+  height: 80px;
+}
+
+.section-3 .section-3-sponsor #sponsor-3 {
+  background:url(../img/g2crowd-logo@2x.webp) no-repeat center center/80%;
+    height: 80px;
+}
+
+.section-3 .section-3-sponsor #sponsor-4 {
+  background:url(../img/Vertical_Sabaeus_RGB.svg) no-repeat center center/80%;
+    height: 80px;
+}
+
+.section-3 .section-3-sponsor #sponsor-5 {
+  background:url(../img/Subaru_Logo_v2_186x63@2x.webp) no-repeat center center/80%; 
+    height: 80px;
+}
+
+.section-3 .section-3-sponsor #sponsor-6 {
+  background:url(../img/Wistia_logo@2x.webp) no-repeat center center/80%; 
+
+    height: 80px;
+}
+
+.section-3 .section-3-sponsor #sponsor-7 {
+  background:url(../img/Classpass-logo@2x.webp) no-repeat center center/80%; 
+    height: 80px;
+}
+
+.section-3 .section-3-sponsor #sponsor-8 {
+  background:url(../img/VMware_logo_gry_RGB_300dpi@2x.webp) no-repeat center center/80%;
+    height: 80px;
 }
 
 /*///////////////////////
