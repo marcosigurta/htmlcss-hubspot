@@ -46,23 +46,22 @@
 /*///////////////////////
          BUTTONS
 ///////////////////////*/
-.btn-large {
+.btn {
   cursor: pointer;
-  background-color: #ff7a59;
   text-decoration: none;
-  color: #fff;
-  text-align: center;
   border-radius: 4px;
+  text-align: center;
+}
+
+.btn-large {
+  background-color: #ff7a59;
+  color: #fff;
   padding: 15px 20px;
 }
 
 .btn-small {
-  cursor: pointer;
   background-color: #fff;
-  text-decoration: none;
   color: #ff7a59;
-  text-align: center;
-  border-radius: 4px;
   padding: 8px 10px;
   border: 1px solid #ff7a59;
 }
